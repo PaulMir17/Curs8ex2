@@ -1,0 +1,5 @@
+CREATE TABLE Carti(
+    id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    denumire VARCHAR(50) NOT NULL,
+    pret DECIMAL(7,2) NOT NULL
+);
